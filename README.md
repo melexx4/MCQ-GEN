@@ -61,11 +61,26 @@ Technologies used to build this project:
    ```sh
    git clone https://github.com/melexx4/MCQ-GEN.git
    ```
-3. Install the required dependencies
+2. Create a virtual environment
+
+   ```sh
+   python -m venv env
+   ```
+3. Activate the virtual environment
+
+   ```sh
+   ./env\Scripts\activate
+   ```
+4. Install the required dependencies
 
    ```sh
    pip install -r requirements.txt
    ```
+5. Install spacy model
+
+   ```sh
+   python -m spacy download en_core_web_sm
+   ```  
 ## Usage
 - Run the Flask application
  
@@ -78,7 +93,7 @@ Technologies used to build this project:
    http://127.0.0.1:5000/
    ```
    
-- Upload a text file or enter text to generate a quiz
+- Upload a pdf or a text file and choose the number of questions to generate a quiz
 
 ## Screenshot
 <details open>
