@@ -2,7 +2,7 @@
    <img width="70%" src="https://github.com/melexx4/MCQ-GEN/blob/main/static/images/logo.png" alt="home"/>
 </p>
 
-<h2 align = "center">Final Project for our CS Automata Theory</h2>
+<h2 align = "center">Final Year Capstone Project for My CSE Course</h2>
 
 ## Table of Contents
   <summary>Table of Contents</summary>
